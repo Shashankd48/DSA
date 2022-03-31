@@ -55,8 +55,6 @@ void mergeSort(int *arr, int low, int high){
     if(low < high){
         int mid = (low + high - 1) / 2;
 
-        printf("%d ",mid);
-
         mergeSort(arr, low, mid);
         mergeSort(arr, mid + 1, high);
 
